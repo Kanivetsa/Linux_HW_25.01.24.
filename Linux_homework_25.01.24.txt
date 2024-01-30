@@ -1,0 +1,45 @@
+   0 mkdir /home/animals/
+   1 mkdir /home/animals/dogs/
+   2 mkdir /home/animals/cats/
+   3 mkdir /home/animals/fish/
+   4 touch /home/animals/dogs/pluto.txt
+   5 touch /home/animals/garfield.txt
+   6 touch /home/animals/fish/nemo.txt
+   7 cd animals
+   8 cd home
+   9 cd /home
+  10 cd /animals
+  11 cd /home
+  12 mkdir animals
+  13 ls
+  14 tree /home/
+  15 mv home/animals/garfield.txt /home/animals/cats/
+  16 mv /home/animals/garfield.txt/ /home/animals/cats/
+  17 tree /home/
+  18 touch /tmp/adam.txt
+  19 cp /tmp/adam.txt/ /home/humans/
+  20 cp -p /tmp/adam.txt/ /home/humans/
+  21 mkdir /home/humans/
+  22 cp /tmp/adam.txt/ /home/humans/
+  23 cp /tmp/adam.txt /home/humans/
+  24 touch /tmp/evA.txt
+  25 mv /tmp/evA.txt /opt/eve.txt
+  26 mv /eve.txt /home/humans/
+  27 cd /tmp
+  28 ls
+  29 cd /home
+  30 ls
+  31 cd /humans
+  32 /home/humans/adam.txt 
+  33 cd /opt
+  34 ls
+  35 mv /eve.txt /home/humans/
+  36 mv /eve.txt/ /home/humans/
+  37 pwd
+  38 mv /opt/eve.txt/ /home/humans/
+  39 cd /humans
+  40 /home/humans/adam.txt
+  41 cd /home/humans
+  42 ls
+  43 cd
+  44 history > homework_25.01.24.txt
